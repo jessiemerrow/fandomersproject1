@@ -1,0 +1,16 @@
+Anonymous Chat Script
+LATEST VERSION: 1.2
+
+Original Author: Kenrick Beckett
+Modifiers: Akito Iwakura, Klyubin Timofey
+
+*** VERSION 1.2 ***
+ - Preparing URL's fixed (more than 3 character in top-level domain's name)
+ - Simple antispam has added (if a message goes after the same message, the message becomes blocked)
+ - The salt has been updated :3
+ 
+ 
+*** VERSION 1.1 ***
+ - Added anonymous nickname system
+ - Main page was redesigned (original version was too ugly)
+ - Increased update time to decrease server load

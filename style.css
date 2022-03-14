@@ -1,0 +1,86 @@
+/**
+		   Simple Anonymous Chat v1.2
+		Core created by: Kenrick Beckett
+		   Modified by: Akito Iwakura
+		      http://sekkyoku.org
+		  Modified by: Klyubin Timofey
+		   http://hammer_dance.vk.com
+**/
+
+/*
+	This is the CSS Sheet.
+	This settings is completely changeable,
+	except of '#chat-area' (it used by jQuery).
+*/
+
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Ubuntu'), url('http://themes.googleusercontent.com/static/fonts/ubuntu/v3/5mBhVjyLdKpTbwI2zOPjQA.woff') format('woff');
+}
+
+
+html, body {
+	font-family: "Ubuntu";
+	font-size: 14px;
+	color: #FFFFFF;
+	background: #000000;
+	margin: 0px;
+	padding: 0px;
+}
+
+a
+{
+	color: #80EC80;
+	text-decoration: none;
+}
+
+.nick
+{
+	display: inline;
+	cursor: pointer;
+}
+
+.mesg
+{
+	display: inline;
+}
+
+.chatd
+{
+	margin: 0 auto;
+	border: 1px solid #0089B3;
+	margin-bottom: 5px;
+	background: #070707;
+	padding: 5px;
+}
+
+.info
+{
+	margin: 0 auto;
+	font-size: 12px;
+	text-align: center;
+}
+
+.edit
+{
+	border: 1px solid #0089B3;
+	width: 498px;
+	height: 40px;
+	color: #FFFFFF;
+	background: #070707;
+	margin: 0 auto;
+}
+
+.page-wrap
+{
+	margin: 0 auto;
+	margin-top: 5px;
+	width: 500px;
+}
+
+/* This section is very important. It allows jQuery to autoscroll chat area. */
+#chat-area                      { height: 400px; width: 490px; overflow: auto;}
+
+
